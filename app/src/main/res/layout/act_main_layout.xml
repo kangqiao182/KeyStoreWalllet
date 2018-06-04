@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_keystore_19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn19"
+        android:text="API19 加解密"/>
+
+    <Button
+        android:id="@+id/btn_keystore_23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn23"
+        android:text="API23 加解密"/>
+
+    <Button
+        android:id="@+id/btn_util"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickOpenUtil"
+        android:text="通用方法"/>
+</LinearLayout>
