@@ -392,7 +392,7 @@ internal class CipherStorageSharedPreferencesKeystore(context: Context) : BaseCi
  * 密钥存储数据的地方.
  */
 internal object CipherPreferencesStorage {
-    private val SHARED_PREFERENCES_NAME = CipherPreferencesStorage::class.java.name + "_security_storage"
+    private val SHARED_PREFERENCES_NAME = "cn.kq.zp.keystore_security_storage"
 
     private fun saveKeyString(context: Context, alias: String, value: String) {
         context.getSharedPreferences(SHARED_PREFERENCES_NAME, Context.MODE_PRIVATE)
